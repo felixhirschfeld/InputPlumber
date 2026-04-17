@@ -674,7 +674,7 @@ impl TargetInputDevice for SteamDeckUhidDevice {
                 "Zotac Zone" => {
                     device_config.vendor = "Zotac".to_string();
                     device_config.name = "Zone Controller".to_string();
-                    device_config.product_id = ProductId::LenovoLegionGoS;
+                    device_config.product_id = ProductId::ZotacZone;
                 }
                 "Steam Deck" => {
                     device_config.vendor = "Valve Corporation".to_string();
